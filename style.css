@@ -91,3 +91,34 @@ body {
 .zero {
     grid-column: span 2;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #1a252f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #1abc9c;
+}
+
+.github-logo {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
