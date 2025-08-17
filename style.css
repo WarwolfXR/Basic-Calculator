@@ -71,6 +71,12 @@ body {
 
 .btn:hover {
     background: #7f8c8d;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    background: #16a085 !important;
+    transform: scale(0.95);
 }
 
 .operator {
